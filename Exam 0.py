@@ -9,3 +9,5 @@ def longueurmot(s):
     return longueur
 
 
+res = longueurmot("tetete ttat zaghz")
+print(res)
