@@ -1,13 +1,8 @@
-def longueurmot(s):
+def lenmot(s):
     s = s.strip()
-    longueur = 0
-    for c in s:
-        if c == " ":
-            longueur = 0
-        else:
-            longueur += 1
-    return longueur
+    mots = s.split()
+    return len(mots[-1])
 
 
-res = longueurmot("tetete ttat zaghz")
+res = lenmot(" Envole-moi vers la lune ")
 print(res)
