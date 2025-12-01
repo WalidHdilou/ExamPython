@@ -1,8 +1,8 @@
-def lenmot(s):
+def lenderniermot(s):
     s = s.strip()
     mots = s.split()
     return len(mots[-1])
 
 
-res = lenmot(" Envole-moi vers la lune ")
+res = lenderniermot(" Envole-moi vers la lune ")
 print(res)
